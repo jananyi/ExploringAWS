@@ -2,17 +2,15 @@ This repository contains my hands-on experiments with AWS Free Tier services, wh
 
 🌩️ What’s inside?
 
-Static Website Hosting – Hosting on Amazon S3 and serving via CloudFront
+Static Website Hosting: Deployed a fully serverless website using Amazon S3 for storage, CloudFront for global content delivery, and optional Route 53 for DNS management, ensuring low latency and high scalability.
 
-EC2 Instances – Setting up Linux & Windows servers
+EC2 Web Application: Launched an Amazon Linux VM, installed Node.js, and served a web app while configuring security groups for HTTP/SSH access to learn compute provisioning and remote management.
 
-Databases – Exploring RDS and MongoDB Atlas integration
+File Backup System: Designed a personal backup solution with file metadata stored in Amazon RDS (MySQL) and actual files in S3, connected via a script for seamless upload and logging.
 
-Serverless – AWS Lambda functions and API Gateway
+Serverless Notes API: Built a CRUD-capable REST API using API Gateway, AWS Lambda (Node.js), DynamoDB, and IAM roles, enabling scalable, cost-efficient operations without server management.
 
-Authentication – Secure login credentials and IAM roles
-
-Networking – VPC, Security Groups, and Load Balancers
+CI/CD Automation: Created an end-to-end pipeline with CodePipeline monitoring GitHub, CodeBuild compiling the app, and automated deployment to EC2/S3, streamlining development workflows.
 
 🎯 Purpose
 
